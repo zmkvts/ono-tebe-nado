@@ -63,7 +63,7 @@
 
 .cover {
   position: relative;
-  max-height: 757px;
+  min-height: 757px;
   max-width: 1440px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -131,7 +131,7 @@
 }
 
 .cover-description {
-  padding: 137px 50px 50px 50px;
+  padding: 135px 50px 50px 50px;
   display: grid;
   grid-template-columns: 3fr 1fr;
   justify-items: end;
