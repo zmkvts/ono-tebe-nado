@@ -63,7 +63,7 @@
 
 .cover {
   position: relative;
-  min-height: 757px;
+  max-height: 757px;
   max-width: 1440px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -131,10 +131,9 @@
 }
 
 .cover-description {
-  padding: 50px;
+  padding: 137px 50px 50px 50px;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 137px;
   justify-items: end;
   align-items: end;
   position: relative;
@@ -151,7 +150,7 @@
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
   word-spacing: 17px;
-  padding-bottom: 12px
+  padding-bottom: 12px 
 }
 
 .word-spacing-extended {
